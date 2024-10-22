@@ -1,6 +1,6 @@
 scalacOptions += "-feature"
 
-addSbtPlugin("com.github.sbt" % "sbt-dynver" % "5.0.1")
+addSbtPlugin("com.github.sbt" % "sbt-dynver" % "5.1.0")
 addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.3.0")
 addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.5.2")
 addSbtPlugin("org.scala-sbt" % "sbt-contraband" % "0.6.0")
