@@ -59,7 +59,7 @@ jobs:
       if: ${{ matrix.jobtype == 3 }}
       shell: bash
       run: |
-        sbt -v -Dfile.encoding=UTF-8 scalafmtCheckAll scalafmtSbtCheck generateContrabands
+        sbt -v -Dfile.encoding=UTF-8 scalafmtCheckAll scalafmtSbtCheck headerCheck generateContrabands
         git diff --exit-code
     - name: Benchmark (Scalac) (4)
       if: ${{ matrix.jobtype == 4 }}
